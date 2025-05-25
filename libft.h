@@ -6,13 +6,14 @@
 /*   By: mandre <mandre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 15:26:51 by mandre            #+#    #+#             */
-/*   Updated: 2025/04/01 10:56:29 by mandre           ###   ########.fr       */
+/*   Updated: 2025/05/25 11:27:26 by mandre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include "ft_printf.h"
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdio.h>
