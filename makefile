@@ -34,9 +34,7 @@ $(PRINTF_LIB):
 
 $(NAME): $(OBJECTS) $(PRINTF_LIB)
 	@mkdir -p $(TMP_DIR)
-	@cp $(PRINTF_LIB) $(TMP_DIR)/temp_printf.a
-	@cd $(TMP_DIR) && $(AR) x temp_printf.a
-	@$(AR) $(NAME) $(OBJECTS) $(TMP_DIR)/*.o
+	@$(AR) $(NAME) $(OBJECTS) printf/*.o
 	@rm -rf $(TMP_DIR)
 
 $(TMP_DIR)/%.o: %.c
