@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mandre <mandre@student.42.fr>              +#+  +:+       +#+        */
+/*   By: mateoandre <mateoandre@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/19 12:52:44 by mateoandre        #+#    #+#             */
-/*   Updated: 2025/04/28 14:48:48 by mandre           ###   ########.fr       */
+/*   Updated: 2025/05/27 12:02:53 by mateoandre       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 
 int	print_conversions(const char *specifier, va_list *ap)
 {
-	int	rtn_value;
-
-	rtn_value = 0;
 	if (*specifier == 'c')
 		return (ft_putchar(va_arg(*ap, int)));
 	if (*specifier == 's')
