@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mandre <mandre@student.42.fr>              +#+  +:+       +#+        */
+/*   By: mateoandre <mateoandre@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 15:26:51 by mandre            #+#    #+#             */
-/*   Updated: 2025/05/25 11:27:26 by mandre           ###   ########.fr       */
+/*   Updated: 2025/05/27 12:45:07 by mateoandre       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include "ft_printf.h"
+# include "printf/ft_printf.h"
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdio.h>
