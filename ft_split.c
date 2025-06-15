@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mandre <mandre@student.42.fr>              +#+  +:+       +#+        */
+/*   By: mateoandre <mateoandre@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/19 10:40:27 by mandre            #+#    #+#             */
-/*   Updated: 2025/03/27 16:56:11 by mandre           ###   ########.fr       */
+/*   Updated: 2025/06/15 11:23:12 by mateoandre       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,8 @@ int	wrd_count(char const *s, char c)
 	int	i;
 	int	count;
 
+	if (!s)
+		return (0);
 	count = 0;
 	i = 0;
 	while (*s)
