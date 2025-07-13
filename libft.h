@@ -6,7 +6,7 @@
 /*   By: mateoandre <mateoandre@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 15:26:51 by mandre            #+#    #+#             */
-/*   Updated: 2025/06/09 21:08:36 by mateoandre       ###   ########.fr       */
+/*   Updated: 2025/07/13 19:46:00 by mateoandre       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include "printf/ft_printf.h"
+# include "get_next_line/get_next_line_bonus.h"
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdio.h>
