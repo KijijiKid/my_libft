@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mandre <mandre@student.42.fr>              +#+  +:+       +#+        */
+/*   By: mateoandre <mateoandre@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/04 15:18:01 by mandre            #+#    #+#             */
-/*   Updated: 2025/05/03 21:46:00 by mandre           ###   ########.fr       */
+/*   Updated: 2025/09/08 11:48:11 by mateoandre       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line_bonus.h"
+#include "../libft.h"
 
 size_t	strlen_special(const char *str)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   hexa_lowercase.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mandre <mandre@student.42.fr>              +#+  +:+       +#+        */
+/*   By: mateoandre <mateoandre@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/23 16:32:30 by mandre            #+#    #+#             */
-/*   Updated: 2025/04/28 14:49:09 by mandre           ###   ########.fr       */
+/*   Updated: 2025/09/08 11:49:47 by mateoandre       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../libft.h"
 
 int	hexa_lowercase(unsigned long val, int rtn_val)
 {

@@ -6,11 +6,11 @@
 /*   By: mateoandre <mateoandre@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/04 15:20:09 by mandre            #+#    #+#             */
-/*   Updated: 2025/07/13 19:42:04 by mateoandre       ###   ########.fr       */
+/*   Updated: 2025/09/08 11:48:15 by mateoandre       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line_bonus.h"
+#include "../libft.h"
 
 bool	ft_find_occurence(const char *s, int c)
 {

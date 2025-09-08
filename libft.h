@@ -6,19 +6,23 @@
 /*   By: mateoandre <mateoandre@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 15:26:51 by mandre            #+#    #+#             */
-/*   Updated: 2025/07/13 19:46:00 by mateoandre       ###   ########.fr       */
+/*   Updated: 2025/09/08 11:52:33 by mateoandre       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include "printf/ft_printf.h"
-# include "get_next_line/get_next_line_bonus.h"
-# include <stdlib.h>
-# include <unistd.h>
+//GNL Read Buffer Size
+# define BUFFER_SIZE 10
+
 # include <stdio.h>
+# include <stdarg.h>
+# include <unistd.h>
+# include <limits.h>
 # include <stdbool.h>
+# include <fcntl.h>
+# include <stdlib.h>
 
 typedef struct s_list
 {
@@ -72,5 +76,27 @@ void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 void	free2d(char **arr);
 int		wrd_count(char const *s, char c);
+
+//Printf Prototypes
+int		ft_printf(const char *str, ...);
+int		print_str(char *str);
+int		print_ptr(unsigned long ptr);
+size_t	ft_strlen(const char *str);
+int		hexa_lowercase(unsigned long val, int rtn_val);
+int		hexa_uppercase(unsigned long val, int rtn_val);
+int		print_int(int val, int rtn_val);
+int		print_usigned(unsigned int val, int rtn_val);
+int		*get_error(void);
+void	set_error(int new_status);
+int		ft_putchar(char c);
+
+//GNL Prototypes
+char		*get_next_line(int fd);
+bool		ft_find_occurence(const char *s, int c);
+size_t		ft_strlen(const char *str);
+size_t		strlen_special(const char *str);
+char		*ft_strjoin(char const *s1, char const *s2);
+char		*ft_strdup(const char *s);
+
 
 #endif

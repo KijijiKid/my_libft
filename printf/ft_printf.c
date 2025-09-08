@@ -6,11 +6,11 @@
 /*   By: mateoandre <mateoandre@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/19 12:52:44 by mateoandre        #+#    #+#             */
-/*   Updated: 2025/05/27 12:02:53 by mateoandre       ###   ########.fr       */
+/*   Updated: 2025/09/08 11:49:35 by mateoandre       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../libft.h"
 
 int	print_conversions(const char *specifier, va_list *ap)
 {

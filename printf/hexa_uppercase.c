@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   hexa_uppercase.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mandre <mandre@student.42.fr>              +#+  +:+       +#+        */
+/*   By: mateoandre <mateoandre@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/23 15:23:16 by mandre            #+#    #+#             */
-/*   Updated: 2025/04/28 11:15:29 by mandre           ###   ########.fr       */
+/*   Updated: 2025/09/08 11:49:50 by mateoandre       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../libft.h"
 
 int	hexa_uppercase(unsigned long val, int rtn_val)
 {

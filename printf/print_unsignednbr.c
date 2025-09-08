@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   print_unsignednbr.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mandre <mandre@student.42.fr>              +#+  +:+       +#+        */
+/*   By: mateoandre <mateoandre@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 13:43:02 by mateoandre        #+#    #+#             */
-/*   Updated: 2025/04/28 12:34:38 by mandre           ###   ########.fr       */
+/*   Updated: 2025/09/08 11:50:03 by mateoandre       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../libft.h"
 
 int	print_usigned(unsigned int val, int rtn_val)
 {
