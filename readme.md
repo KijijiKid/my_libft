@@ -69,3 +69,18 @@ This repository conatains a libary full of useful, selfcoded functions in C. You
 │   └── print_unsignednbr.c
 └── readme.md
 </div>
+<h1>Adding LIBFT as Submodule</h1>
+<div>
+To add Libft as a SUubmodule basically follow the instructions provided below.
+	<div>
+		A git submodule is basically a repository inside another repository.
+		It allows you to include one Git repository as a subdirectory of another while keeping their histories separate.
+	</div>
+	<h2>Manually</h2>
+	<div>
+		1. git submodule add \<repo-url\>
+			you should notice that a .gitmodules file added automatically
+		2. git submodule init
+		3. git submodule update
+	</div>
+</div>
