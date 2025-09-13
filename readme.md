@@ -1,0 +1,86 @@
+<div>
+This repository conatains a libary full of useful, selfcoded functions in C. You could take it as the journey through my 42 experience. I will always add new functions if i think i could use them somewhere else in other Projects.
+<div>
+
+<h1>File Tree</h1>
+<div>
+.
+├── get_next_line
+│   ├── get_next_line_bonus.c
+│   └── get_next_line_utils_bonus.c
+├── libft_fnc
+│   ├── free2d.c
+│   ├── ft_atoi.c
+│   ├── ft_atol.c
+│   ├── ft_bzero.c
+│   ├── ft_calloc.c
+│   ├── ft_isalnum.c
+│   ├── ft_isalpha.c
+│   ├── ft_isascii.c
+│   ├── ft_isdigit.c
+│   ├── ft_isprint.c
+│   ├── ft_itoa.c
+│   ├── ft_lstadd_back.c
+│   ├── ft_lstadd_front.c
+│   ├── ft_lstclear.c
+│   ├── ft_lstdelone.c
+│   ├── ft_lstiter.c
+│   ├── ft_lstlast.c
+│   ├── ft_lstmap.c
+│   ├── ft_lstnew.c
+│   ├── ft_lstsize.c
+│   ├── ft_memchr.c
+│   ├── ft_memcmp.c
+│   ├── ft_memcpy.c
+│   ├── ft_memmove.c
+│   ├── ft_memset.c
+│   ├── ft_putchar_fd.c
+│   ├── ft_putendl_fd.c
+│   ├── ft_putnbr_fd.c
+│   ├── ft_putstr_fd.c
+│   ├── ft_split.c
+│   ├── ft_strchr.c
+│   ├── ft_strdup.c
+│   ├── ft_striteri.c
+│   ├── ft_strjoin.c
+│   ├── ft_strlcat.c
+│   ├── ft_strlcpy.c
+│   ├── ft_strlen.c
+│   ├── ft_strmapi.c
+│   ├── ft_strncmp.c
+│   ├── ft_strnstr.c
+│   ├── ft_strrchr.c
+│   ├── ft_strtrim.c
+│   ├── ft_substr.c
+│   ├── ft_tolower.c
+│   └── ft_toupper.c
+├── libft.h
+├── makefile
+├── printf
+│   ├── ft_error.c
+│   ├── ft_printf.c
+│   ├── ft_putchar.c
+│   ├── helper_utils.c
+│   ├── hexa_lowercase.c
+│   ├── hexa_uppercase.c
+│   ├── print_int.c
+│   ├── print_ptr.c
+│   ├── print_str.c
+│   └── print_unsignednbr.c
+└── readme.md
+</div>
+<h1>Adding LIBFT as Submodule</h1>
+<div>
+To add Libft as a SUubmodule basically follow the instructions provided below.
+	<div>
+		A git submodule is basically a repository inside another repository.
+		It allows you to include one Git repository as a subdirectory of another while keeping their histories separate.
+	</div>
+	<h2>Manually</h2>
+	<div>
+		1. git submodule add \<repo-url\>
+			you should notice that a .gitmodules file added automatically
+		2. git submodule init
+		3. git submodule update
+	</div>
+</div>
