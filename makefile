@@ -12,7 +12,7 @@ LIBFT_DIR   := libft_fnc
 PRINTF_DIR  := printf
 GNL_DIR     := get_next_line
 
-INCDIRS     := -I. -I$(LIBFT_DIR) -I$(PRINTF_DIR) -I$(GNL_DIR) -I$(MATH_DIR)
+INCDIRS     := -I. -I$(LIBFT_DIR) -I$(PRINTF_DIR) -I$(GNL_DIR)
 
 # <=== Colors ===>
 GREEN       := \033[0;32m
@@ -39,8 +39,6 @@ GNL_SRCS := get_next_line_bonus.c get_next_line_utils_bonus.c
 
 PRINTF_SRCS := ft_error.c ft_printf.c ft_putchar.c helper_utils.c hexa_lowercase.c hexa_uppercase.c \
                print_int.c print_ptr.c print_str.c print_unsignednbr.c
-
-MATH_SRCS := math_1.c
 
 LIBFT_CS     := $(addprefix $(LIBFT_DIR)/,$(SRCS))
 BONUS_CS     := $(addprefix $(LIBFT_DIR)/,$(BONUS_SRCS))
