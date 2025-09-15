@@ -11,7 +11,6 @@ BUILD_DIR   := build
 LIBFT_DIR   := libft_fnc
 PRINTF_DIR  := printf
 GNL_DIR     := get_next_line
-MATH_DIR	:= math_fncs
 
 INCDIRS     := -I. -I$(LIBFT_DIR) -I$(PRINTF_DIR) -I$(GNL_DIR) -I$(MATH_DIR)
 
@@ -47,15 +46,13 @@ LIBFT_CS     := $(addprefix $(LIBFT_DIR)/,$(SRCS))
 BONUS_CS     := $(addprefix $(LIBFT_DIR)/,$(BONUS_SRCS))
 GNL_CS       := $(addprefix $(GNL_DIR)/,$(GNL_SRCS))
 PRINTF_CS    := $(addprefix $(PRINTF_DIR)/,$(PRINTF_SRCS))
-MATH_CS    := $(addprefix $(MATH_DIR)/,$(MATH_SRCS))
 
 LIBFT_OBJS   := $(LIBFT_CS:%.c=$(BUILD_DIR)/%.o)
 BONUS_OBJS   := $(BONUS_CS:%.c=$(BUILD_DIR)/%.o)
 GNL_OBJS     := $(GNL_CS:%.c=$(BUILD_DIR)/%.o)
 PRINTF_OBJS  := $(PRINTF_CS:%.c=$(BUILD_DIR)/%.o)
-MATH_OBJS  := $(MATH_CS:%.c=$(BUILD_DIR)/%.o)
 
-OBJS         := $(LIBFT_OBJS) $(GNL_OBJS) $(PRINTF_OBJS) $(MATH_OBJS)
+OBJS         := $(LIBFT_OBJS) $(GNL_OBJS) $(PRINTF_OBJS)
 DEPS         := $(OBJS:.o=.d)
 BONUS_DEPS   := $(BONUS_OBJS:.o=.d)
 

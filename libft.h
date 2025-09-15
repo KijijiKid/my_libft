@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mateoandre <mateoandre@student.42.fr>      +#+  +:+       +#+        */
+/*   By: mandre <mandre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 15:26:51 by mandre            #+#    #+#             */
-/*   Updated: 2025/09/11 21:30:02 by mateoandre       ###   ########.fr       */
+/*   Updated: 2025/09/15 11:08:54 by mandre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,14 +94,11 @@ void	set_error(int new_status);
 int		ft_putchar(char c);
 
 //GNL Prototypes
-char		*get_next_line(int fd);
-bool		ft_find_occurence(const char *s, int c);
-size_t		ft_strlen(const char *str);
-size_t		strlen_special(const char *str);
-char		*ft_strjoin(char const *s1, char const *s2);
-char		*ft_strdup(const char *s);
-
-//Math functions Prototypes
-double	scaleBetween(double unscaledNum, double minAllowed, double maxAllowed, double min, double max);
+char	*get_next_line(int fd);
+bool	ft_find_occurence(const char *s, int c);
+size_t	ft_strlen(const char *str);
+size_t	strlen_special(const char *str);
+char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_strdup(const char *s);
 
 #endif
